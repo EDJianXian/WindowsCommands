@@ -1,0 +1,15 @@
+name: WindowsCommandExecutor
+version: '${project.version}'
+main: com.windowscommandexecutor.WindowsCommandExecutor
+api-version: '1.20'
+authors: [ED-JX]
+description: 一个可以在游戏中控制Windows系统的插件
+commands:
+  windows:
+    description: 执行 Windows 系统命令
+    usage: /windows <Windows command>
+    permission: windowscommandexecutor.use
+permissions:
+  windowscommandexecutor.use:
+    description: 允许使用 /windows 命令
+    default: op
